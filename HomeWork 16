@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Изучаем язык JavaScript</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var date = new Date();
+		text = "Год Сейчас - " + date.getFullYear();
+		text += "\nМесяц Сейчас - " + date.getMonth();
+		text += "\nДень Сейчас - " + date.getDate();
+		text += "\nЧасов Сейчас - " + date.getHours();
+		text += "\nМинут Сейчас - " + date.getMinutes();
+		text += "\nСекунд Сейчас - " + date.getSeconds();
+		alert(text);
+	</script>
+</body>
+</html>
